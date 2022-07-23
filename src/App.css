@@ -1,0 +1,141 @@
+.main-page {
+  width: 700px;
+  height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
+.container {
+  margin: 5px 0px;
+}
+
+.news-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title-container {
+  display: flex;
+  align-items: center;
+}
+
+.title-list, .quotes-list {
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+
+.title-item:nth-child(n + 2), .quotes-item:nth-child(n + 2) {
+  margin-left: 10px;
+}
+
+.news-date {
+  margin-left: 10px;
+  font-size: 12px;
+  color: rgb(54, 51, 51);
+}
+
+.news-list, .broadcast-list, .visited-list, .tv-list {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+
+.news-item, .broadcast-item {
+  display: flex;
+  align-items: center;
+}
+
+.image-container-news {
+  width: 10px;
+  height: 10px;
+  margin-right: 5px;
+  background-color: rgb(231, 5, 35);
+}
+
+.quotes-changes, .broadcast-channel, .tv-channel {
+  margin-left: 5px;
+  color: rgb(139, 139, 139);
+}
+
+.image-container {
+  width: 100px;
+  height: 100px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  border-radius: 50%;
+}
+
+.image-container,
+.advertisement-container,
+.advertisement-container,
+.image-container-weather {
+  background-color: rgb(231, 228, 5);
+}
+
+.text-list {
+  margin: 10px 0px;
+}
+
+.search-container, .search-input-container {
+  width: 100%;
+}
+
+.search-input {
+  width: calc(100% - 65px);
+  height: 15px;
+}
+
+.search-btn {
+  box-sizing: border-box;
+  width: 55px;
+}
+
+.comment-container {
+  font-size: 12px;
+  color: rgb(139, 139, 139);
+}
+
+.advertisement-container {
+  width: 100%;
+  height: 70px;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.weather-content {
+  display: flex;
+  align-items: center;
+}
+
+.image-container-weather {
+  width: 50px;
+  height: 50px;
+}
+
+.weather-text {
+  margin-left: 5px;
+}
+
+.text-temperature {
+  margin: 0px;
+  font-size: 25px;
+}
+
+.text-weather-comment {
+  margin: 0px;
+}
+
+.broadcast-icon {
+  margin-right: 5px;
+}
+
+.card:nth-child(3n + 2) {
+  margin: 0 50px;
+}
